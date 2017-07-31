@@ -13,5 +13,6 @@
 	System.out.println("str=>"+str);// 콘솔에 출력(디버깅용)
 	out.println("<h1>"+"str=>"+str+"</h1>");//웹에 출력(out은 내장 객체)
 	%>
+	<%=str%>
 </body>
 </html>
